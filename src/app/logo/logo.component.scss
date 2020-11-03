@@ -1,0 +1,28 @@
+.logo {
+  display: flex;
+  width: 305px;
+  height: 100px;
+  margin-left: 8px;
+}
+
+.logo_icon {
+  width: 80px;
+  height: 80px;
+  background-image: url('/assets/images/logo.png');
+  background-repeat: no-repeat;
+  background-size: 80px;
+  margin-top: 10px;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.logo_name {
+  width: 220px;
+  height: 55px;
+  background-image: url('/assets/images/name.png');
+  background-repeat: no-repeat;
+  background-size: 220px;
+  margin-top: 22px;
+}

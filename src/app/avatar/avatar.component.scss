@@ -1,0 +1,26 @@
+.guest_name {
+  color: #a6adb7;
+  font-family: Calibri;
+  font-size: 110%;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.guest {
+  color: white;
+  font-family: Calibri;
+  font-size: 150%;
+  font-weight: bold;
+}
+
+.avatar {
+  width: 64px;
+  height: 64px;
+  background-image: url("/assets/images/guest_avatar.jpg");
+  background-size: cover;
+  border-radius: 50%;
+}
+:host {
+  display: flex;
+  align-items: center;
+}

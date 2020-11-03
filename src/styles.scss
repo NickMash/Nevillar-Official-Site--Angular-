@@ -1,1 +1,41 @@
-/* You can add global styles to this file, and also import other style files */
+html {
+  position: relative;
+  margin: 0;
+}
+
+html::before {
+  //background: linear-gradient( 171.8deg,  rgb(14, 14, 34) 13.5%, rgb(1, 1, 4) 78.6% );
+  background: linear-gradient( 171.8deg,  rgb(21, 21, 21) 13.5%, rgb(0, 0, 0) 78.6% );
+  background-size: cover;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  content: ' ';
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  will-change: transform;
+  z-index: -1;
+}
+
+body {
+  position: relative;
+  margin: 0;
+}
+
+body::before {
+  background-image: url('/assets/images/main_background.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  content: ' ';
+  height: 100%;
+  margin: 0 auto;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  will-change: transform;
+  z-index: -1;
+}

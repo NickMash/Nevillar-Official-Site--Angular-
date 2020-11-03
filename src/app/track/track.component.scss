@@ -1,0 +1,22 @@
+.music_box {
+  width: 318px;
+  height: 390px;
+  margin: 30px 15px;
+  border: 1px #1c3474 solid;
+  -moz-box-shadow: 0 0 10px #1c3474, inset 0 0 30px #1c3474;
+  -webkit-box-shadow: 0 0 10px #1c3474, inset 0 0 30px #1c3474;
+  box-shadow: 0 0 10px #1c3474, inset 0 0 30px #1c3474;
+  background-color: rgba(0, 0, 0, 0.85);
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.music_box:hover {
+  cursor: pointer;
+  border: 1px #1e3ce1 solid;
+  -moz-box-shadow: 0 0 10px #1e3ce1, inset 0 0 30px #1e3ce1;
+  -webkit-box-shadow: 0 0 10px #1e3ce1, inset 0 0 30px #1e3ce1;
+  box-shadow: 0 0 10px #1e3ce1, inset 0 0 30px #1e3ce1;
+  background-color: rgba(0, 0, 0, 0.75);
+}

@@ -1,0 +1,19 @@
+.login_sign_up_button {
+  text-align: center;
+  color: #e8f5ff;
+  font-family: Calibri;
+  font-size: 110%;
+  font-weight: bold;
+  border-radius: 46px;
+  border: 2px #1347b7 solid;
+  background-color: #1347b7;
+  -webkit-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  padding: 10px 20px;
+}
+
+.login_sign_up_button:hover {
+  cursor: pointer;
+  background-color: rgba(19, 71, 183, 0);
+}
