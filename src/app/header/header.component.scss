@@ -2,16 +2,14 @@
   &__container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
     width: 100%;
-    height: 100px;
+    height: 102px;
     border-bottom: 1px rgba(61, 101, 160, 0.7) solid;
     position:fixed;
+    z-index: 4;
     max-width: 1400px;
-    //background-color: #0E0E22;
-    //-moz-box-shadow: 0 50px 100px #0E0E22;
-    //-webkit-box-shadow: 0 50px 100px #0E0E22;
-    //box-shadow: 0 50px 100px #0E0E22;
     background-color: #080808;
     box-shadow: 0 50px 100px #000000;
     -moz-box-shadow: 0 50px 100px #000000;
@@ -20,6 +18,7 @@
     margin:auto;
     left:0;
     right:0;
+    top: 0;
   }
 
 }
@@ -30,4 +29,97 @@
   & > * {
     margin-left: 20px;
   }
+}
+.socials {
+  display: flex;
+  justify-content: center;
+  width: 263px;
+  z-index: 1;
+  position: fixed;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+.socials_hidden {
+  display: flex;
+  justify-content: center;
+  width: 263px;
+  z-index: -1;
+  position: fixed;
+  margin: auto;
+  left: 0;
+  right: 0;
+  opacity:0;
+}
+.social_item {
+  width: 28px;
+  height: 28px;
+  margin: 0 7px;
+  background-size: cover;
+  -webkit-transition: all 0.15s ease;
+  -o-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+  transform: scale(0.9);
+}
+.social_item:hover {
+  cursor: pointer;
+  transform: scale(1.0);
+}
+.social_item:nth-child(6) {
+  width: 39px;
+}
+.spotify_icon {
+  background-image: url("/assets/images/social_icons/spotify_black_icon.png");
+}
+.spotify_icon:hover {
+  background-image: url("/assets/images/social_icons/spotify_color_icon.png");
+}
+.instagram_icon {
+  background-image: url("/assets/images/social_icons/instagram_black_icon.png");
+}
+.instagram_icon:hover {
+  background-image: url("/assets/images/social_icons/instagram_color_icon.png");
+}
+.facebook_icon {
+  background-image: url("/assets/images/social_icons/facebook_black_icon.png");
+}
+.facebook_icon:hover {
+  background-image: url("/assets/images/social_icons/facebook_color_icon.png");
+}
+.youtube_icon {
+  background-image: url("/assets/images/social_icons/youtube_black_icon.png");
+}
+.youtube_icon:hover {
+  background-image: url("/assets/images/social_icons/youtube_color_icon.png");
+}
+.twitter_icon {
+  background-image: url("/assets/images/social_icons/twitter_black_icon.png");
+}
+.twitter_icon:hover {
+  background-image: url("/assets/images/social_icons/twitter_color_icon.png");
+}
+.soundcloud_icon {
+  background-image: url("/assets/images/social_icons/soundcloud_black_icon.png");
+}
+.soundcloud_icon:hover {
+  background-image: url("/assets/images/social_icons/soundcloud_color_icon.png");
+}
+
+.spotify_hidden_icon {
+  background-image: url("/assets/images/social_icons/spotify_color_icon.png");
+}
+.instagram_hidden_icon {
+  background-image: url("/assets/images/social_icons/instagram_color_icon.png");
+}
+.facebook_hidden_icon {
+  background-image: url("/assets/images/social_icons/facebook_color_icon.png");
+}
+.youtube_hidden_icon {
+  background-image: url("/assets/images/social_icons/youtube_color_icon.png");
+}
+.twitter_hidden_icon {
+  background-image: url("/assets/images/social_icons/twitter_color_icon.png");
+}
+.soundcloud_hidden_icon {
+  background-image: url("/assets/images/social_icons/soundcloud_color_icon.png");
 }

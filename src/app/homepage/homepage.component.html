@@ -1,8 +1,14 @@
-<div class="welcome">The Official Nevillar Website</div>
-<div class="youtube_player">
-  <iframe width="854" height="480"
-          src="https://www.youtube.com/embed/d6RPjRH7CsU" frameborder="0"
-          allow="accelerometer;  autoplay; encrypted-media; gyroscope;
-    picture-in-picture" allowfullscreen></iframe>
+<div class="welcome">THE OFFICIAL NEVILLAR WEBSITE</div>
+<div class="latest_releases_text">
+  <div class="inner_text_block">LATEST RELEASES</div>
+  <div class="inner_text_block"></div>
+  <div class="inner_text_block"></div>
+</div>
+<div class="latest_releases">
+
+  <app-latest-release-on-homepage *ngFor="let item of latestReleases"
+    [trackLink] = "item.trackLink" [spotifyPlayerLink] = "item.spotifyPlayerLink" [coverPath] = "item.coverPath">
+  </app-latest-release-on-homepage>
+
 </div>
 <app-footer></app-footer>

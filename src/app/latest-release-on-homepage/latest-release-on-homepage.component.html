@@ -1,0 +1,10 @@
+<div class="homepage_track">
+  <div class="release_cover" [style.background-image] = coverPath [style.backgroundSize]="'cover'">
+    <div class="play_buy" (click)="padding ='0'; opacity='1'" [style.padding-top]="padding" [style.opacity]="opacity">
+      <div class="dark_background">
+        <a [href]="trackLink" class="track_link_button" target="_blank">LISTEN / BUY</a>
+      </div>
+      <iframe height="80" [src]="spotifyPlayerLink | safe" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    </div>
+  </div>
+</div>

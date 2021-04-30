@@ -1,0 +1,40 @@
+.admin_menu {
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  margin: 300px auto 0 auto;
+}
+.edit_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 220px;
+  width: 90vw;
+  height: 30px;
+  border: #e8f5ff 2px solid;
+  color: #e8f5ff;
+  border-radius: 30px;
+  font-family: Calibri;
+  font-size: 110%;
+  text-decoration: none;
+  -webkit-transition: all 0.1s ease;
+  -o-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+  opacity: 0.6;
+  margin: 10px;
+}
+.edit_button:hover {
+  cursor: pointer;
+  color: white;
+  border: white 2px solid;
+  transform: scale(1.05);
+  opacity: 1;
+}
+@media (max-width: 700px) {
+  .admin_menu {
+    align-items: center;
+  }
+}
+:host {
+  width: 70%;
+}

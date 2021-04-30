@@ -1,3 +1,4 @@
 <nav class="navigation__container" id="navigation__container">
-  <app-menu-item *ngFor="let item of menuItems" [item]="item" routerLink="{{item?.toLowerCase()}}" routerLinkActive="active">{{item}}</app-menu-item>
+  <app-menu-item *ngFor="let item of menuItems" [item]="item" routerLink="{{item?.toLowerCase()}}"
+                 routerLinkActive="active">&nbsp;{{item}}&nbsp;</app-menu-item>
 </nav>

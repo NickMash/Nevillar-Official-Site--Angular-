@@ -4,8 +4,7 @@ html {
 }
 
 html::before {
-  //background: linear-gradient( 171.8deg,  rgb(14, 14, 34) 13.5%, rgb(1, 1, 4) 78.6% );
-  background: linear-gradient( 171.8deg,  rgb(21, 21, 21) 13.5%, rgb(0, 0, 0) 78.6% );
+  background: linear-gradient( 175deg,  rgb(1, 1, 1) 13.5%, rgb(0, 0, 0) 78.6% );
   background-size: cover;
   overflow-x: hidden;
   margin: 0;
@@ -13,6 +12,7 @@ html::before {
   content: ' ';
   height: 100%;
   left: 0;
+  right: 0;
   position: fixed;
   top: 0;
   width: 100%;
@@ -26,9 +26,11 @@ body {
 }
 
 body::before {
-  background-image: url('/assets/images/main_background.png');
-  background-size: 100%;
+  background-image: url('/assets/images/portrait_background.png');
+  background-size: 101%;
   background-repeat: no-repeat;
+  background-position: top;
+  opacity: 0.9;
   content: ' ';
   height: 100%;
   margin: 0 auto;
@@ -38,4 +40,59 @@ body::before {
   width: 100%;
   will-change: transform;
   z-index: -1;
+}
+@media (min-width: 1301px) and (max-width: 1650px) {
+  body::before {
+    background-size: 125%;
+  }
+}
+@media (min-width: 1081px) and (max-width: 1300px) {
+  body::before {
+    background-size: 150%;
+  }
+}
+@media (min-width: 981px) and (max-width: 1080px) {
+  body::before {
+    background-size: 175%;
+  }
+}
+@media (min-width: 881px) and (max-width: 980px) {
+  body::before {
+    background-size: 200%;
+  }
+}
+@media (min-width: 781px) and (max-width: 880px) {
+  body::before {
+    background-size: 225%;
+  }
+}
+@media (min-width: 681px) and (max-width: 780px) {
+  body::before {
+    background-size: 250%;
+  }
+}
+@media (min-width: 581px) and (max-width: 680px) {
+  body::before {
+    background-size: 275%;
+  }
+}
+@media (min-width: 481px) and (max-width: 580px) {
+  body::before {
+    background-size: 350%;
+  }
+}
+@media (min-width: 381px) and (max-width: 480px) {
+  body::before {
+    background-size: 400%;
+  }
+}
+@media (min-width: 281px) and (max-width: 380px) {
+  body::before {
+    background-size: 500%;
+  }
+}
+@media (min-width: 181px) and (max-width: 280px) {
+  body::before {
+    background-size: 600%;
+  }
 }

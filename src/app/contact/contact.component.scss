@@ -1,0 +1,36 @@
+.contact_page {
+  width: 92%;
+  margin: 300px auto 232px auto;
+  padding-left: 60px;
+}
+
+.contact_text {
+  margin-top: 50px;
+  color: rgba(252, 251, 255, 0.85);
+  font-family: Calibri;
+  font-size: 110%;
+  text-align: start;
+}
+
+.contact_name {
+  color: rgb(42 39 253);
+  font-weight: bold;
+  font-family: Calibri;
+  font-size: 200%;
+  text-align: start;
+  margin-top: 50px;
+}
+
+.contact_word {
+  color: rgba(252, 251, 255, 0.85);
+  font-weight: bold;
+  font-family: Calibri;
+  font-size: 250%;
+  text-align: start;
+}
+:host {
+  width: 90%;
+}
+a {
+  color: rgb(42 39 253);
+}
