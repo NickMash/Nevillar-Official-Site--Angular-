@@ -1,28 +1,44 @@
 .logo {
   display: flex;
-  width: 305px;
-  height: 100px;
-  margin-left: 8px;
+  width: 310px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding-left: 15px;
 }
-
 .logo_icon {
-  width: 80px;
-  height: 80px;
-  background-image: url('/assets/images/logo.png');
+  width: 70px;
+  height: 70px;
+  background-image: url('/assets/images/sphere_logo.png');
   background-repeat: no-repeat;
-  background-size: 80px;
-  margin-top: 10px;
+  background-size: cover;
+  -webkit-animation-name: rotation;
+  -webkit-animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: rotation;
+  -moz-animation-duration: 10s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -o-animation-name: rotation;
+  -o-animation-duration: 10s;
+  -o-animation-iteration-count: infinite;
+  -o-animation-timing-function: linear;
+  animation-name: rotation;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
-
 .logo:hover {
   cursor: pointer;
 }
-
 .logo_name {
   width: 220px;
   height: 55px;
   background-image: url('/assets/images/name.png');
   background-repeat: no-repeat;
   background-size: 220px;
-  margin-top: 22px;
+  z-index: 1;
+  margin: auto 0 auto 3px;
 }

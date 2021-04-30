@@ -3,7 +3,6 @@
   font-family: Calibri;
   font-size: 110%;
   font-weight: bold;
-  margin-right: 20px;
 }
 
 .guest {
@@ -14,6 +13,7 @@
 }
 
 .avatar {
+  display: none;
   width: 64px;
   height: 64px;
   background-image: url("/assets/images/guest_avatar.jpg");

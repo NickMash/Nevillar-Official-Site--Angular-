@@ -2,15 +2,14 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  width: 60%;
+  width: 90%;
+  max-width: 1200px;
   height: 70px;
   margin: 0 auto;
-  margin-top: 101px;
+  margin-top: 103px;
   position: fixed;
+  z-index: 4;
   left: 0;
   right: 0;
-}
-.active {
-  color: white !important;
-  border-bottom: 3px #1242a8 solid;
+  top: 0;
 }

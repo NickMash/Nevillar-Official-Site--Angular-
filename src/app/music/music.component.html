@@ -1,2 +1,8 @@
-<p>music works!</p>
+<div class="music__container">
+
+  <app-track *ngFor="let item of allMusic"
+    [trackLink] = "item.trackLink" [trackName] = "item.trackName" [coverPath] = "item.coverPath">
+  </app-track>
+
+</div>
 <app-footer></app-footer>

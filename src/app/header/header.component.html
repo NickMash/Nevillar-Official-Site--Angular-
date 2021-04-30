@@ -1,5 +1,11 @@
 <header class="header__container">
   <app-logo></app-logo>
+  <div class="socials">
+    <a *ngFor="let item of socialLinks" class="{{item.itemName}} social_item" [href]="item.link" target="_blank"></a>
+  </div>
+  <div class="socials_hidden">
+    <a *ngFor="let item of socialLinks" class="{{item.itemHiddenName}} social_item" [href]="item.link" target="_blank"></a>
+  </div>
   <div class="login_box">
     <app-avatar></app-avatar>
     <app-login-button></app-login-button>

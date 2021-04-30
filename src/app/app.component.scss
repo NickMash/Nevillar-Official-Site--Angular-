@@ -1,6 +1,25 @@
   .overall__container {
+    margin: 0 auto;
+    max-width: 1400px;
     display: flex;
     justify-content: center;
     margin: 0 auto;
     max-width: 1400px;
+  }
+  .black_strip {
+    top:0;
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    height: 104px;
+    background-color: #010101;
+  }
+  .black_strip_2 {
+    margin-top: 104px;
+    top:0;
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    height: 170px;
+    background: linear-gradient(to bottom, #000000 30%, transparent);
   }

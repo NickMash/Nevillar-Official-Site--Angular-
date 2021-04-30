@@ -1,6 +1,6 @@
-<div class="music_box">
-  <div class="music_cover somebody_say_yeah"></div>
-  <div class="track_name">Nevillar - Somebody Say Yeah</div>
-  <div class="play play_somebody_say_yeah"></div>
-  <div class="somebody_say_yeah_spotify_iframe spotify_iframe switch_off"></div>
-</div>
+<a [href]="trackLink" class="track__container" target="_blank">
+  <div class="release_cover" [style.background] = coverPath [style.backgroundSize]="'cover'"></div>
+  <div class="track_name_background"></div>
+  <div class="track_name">{{trackName}}</div>
+  <div class="shine"></div>
+</a>

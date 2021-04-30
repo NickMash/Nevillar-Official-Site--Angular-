@@ -16,6 +16,11 @@ import { VideoComponent } from './video/video.component';
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { TrackComponent } from './track/track.component';
+import { LatestReleaseOnHomepageComponent } from './latest-release-on-homepage/latest-release-on-homepage.component';
+import { SafePipe } from './safe.pipe';
+import { AdministrationComponent } from './administration/administration.component';
+import { EditLatestReleasesComponent } from './edit-latest-releases/edit-latest-releases.component';
+import { EditMusicComponent } from './edit-music/edit-music.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +37,12 @@ import { TrackComponent } from './track/track.component';
     VideoComponent,
     ContactComponent,
     FooterComponent,
-    TrackComponent
+    TrackComponent,
+    LatestReleaseOnHomepageComponent,
+    SafePipe,
+    AdministrationComponent,
+    EditLatestReleasesComponent,
+    EditMusicComponent
   ],
   imports: [
     BrowserModule,

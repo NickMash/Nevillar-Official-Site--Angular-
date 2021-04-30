@@ -1,0 +1,19 @@
+.videos {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  max-width: 900px;
+  height: 100%;
+  margin: 250px auto 0 auto;
+}
+.main_video {
+  margin: 10px;
+}
+.videos_player {
+  max-width: 407px;
+  max-height: 229px;
+  width: 100%;
+  height: 100%;
+  margin: 10px;
+}
